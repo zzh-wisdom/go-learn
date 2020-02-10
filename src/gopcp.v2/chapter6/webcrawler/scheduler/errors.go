@@ -1,9 +1,9 @@
 package scheduler
 
 import (
-	"gopcp.v2/chapter6/webcrawler/errors"
-	"gopcp.v2/chapter6/webcrawler/module"
-	"gopcp.v2/chapter6/webcrawler/toolkit/buffer"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/errors"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/toolkit/buffer"
 )
 
 // genError 用于生成爬虫错误值。

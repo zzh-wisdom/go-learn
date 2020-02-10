@@ -1,6 +1,6 @@
 package scheduler
 
-import "gopcp.v2/chapter6/webcrawler/module"
+import "github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module"
 
 // Args 代表参数容器的接口类型。
 type Args interface {

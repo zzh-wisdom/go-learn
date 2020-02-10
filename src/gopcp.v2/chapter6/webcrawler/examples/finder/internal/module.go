@@ -1,10 +1,10 @@
 package internal
 
 import (
-	"gopcp.v2/chapter6/webcrawler/module"
-	"gopcp.v2/chapter6/webcrawler/module/local/analyzer"
-	"gopcp.v2/chapter6/webcrawler/module/local/downloader"
-	"gopcp.v2/chapter6/webcrawler/module/local/pipeline"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module/local/analyzer"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module/local/downloader"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module/local/pipeline"
 )
 
 // snGen 代表组件序列号生成器。

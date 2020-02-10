@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"gopcp.v2/chapter6/webcrawler/module"
-	"gopcp.v2/chapter6/webcrawler/toolkit/buffer"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/toolkit/buffer"
 )
 
 // SchedSummary 代表调度器摘要的接口类型。
