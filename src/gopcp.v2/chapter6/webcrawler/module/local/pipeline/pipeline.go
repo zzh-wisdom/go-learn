@@ -77,7 +77,7 @@ func (pipeline *myPipeline) Send(item module.Item) []error {
 				break
 			}
 		}
-		if processedItem != nil {
+		if processedItem != nil { //忽略返回值为nil的处理
 			currentItem = processedItem
 		}
 	}

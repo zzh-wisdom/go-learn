@@ -291,8 +291,7 @@ func (sched *myScheduler) Summary() SchedSummary {
 }
 
 // checkAndSetStatus 用于状态的检查，并在条件满足时设置状态。
-func (sched *myScheduler) checkAndSetStatus(
-	wantedStatus Status) (oldStatus Status, err error) {
+func (sched *myScheduler) checkAndSetStatus(wantedStatus Status) (oldStatus Status, err error) {
 	sched.statusLock.Lock()
 	defer sched.statusLock.Unlock()
 	oldStatus = sched.status
