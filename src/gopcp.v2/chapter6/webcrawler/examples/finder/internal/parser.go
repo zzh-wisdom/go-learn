@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"gopcp.v2/chapter6/webcrawler/module"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/module"
 )
 
 // genResponseParses 用于生成响应解析器。

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	lib "gopcp.v2/chapter6/webcrawler/examples/finder/internal"
-	"gopcp.v2/chapter6/webcrawler/examples/finder/monitor"
-	sched "gopcp.v2/chapter6/webcrawler/scheduler"
-	"gopcp.v2/helper/log"
+	lib "github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/examples/finder/internal"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/examples/finder/monitor"
+	sched "github.com/zzh-wisdom/go-learn/src/gopcp.v2/chapter6/webcrawler/scheduler"
+	"github.com/zzh-wisdom/go-learn/src/gopcp.v2/helper/log"
 )
 
 // 命令参数。
